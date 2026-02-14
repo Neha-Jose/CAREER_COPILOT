@@ -8,11 +8,11 @@ This project was built for Vibeathon as a **career co-pilot**, not a chatbot.
 
 ---
 
-## 🚀 Core Features
+## Core Features
 
 ---
 
-### 🎯 Career Fit Quiz
+### Career Fit Quiz
 
 - Short aptitude + interest quiz
 - Maps users to best-fit career roles (ML Engineer, Data Scientist, Backend Engineer, etc.)
@@ -23,7 +23,7 @@ This removes guesswork and provides structured career direction.
 
 ---
 
-### 📄 ATS Resume Scoring
+### ATS Resume Scoring
 
 - Semantic similarity between resume and job description
 - Returns ATS compatibility percentage
@@ -33,7 +33,7 @@ Helps users understand how well their resume matches real job postings.
 
 ---
 
-### 📊 Employability Score
+###  Employability Score
 
 Real-time market readiness percentage calculated using:
 
@@ -45,7 +45,7 @@ Provides a quantitative measure of how job-ready a user currently is.
 
 ---
 
-### 🧩 Skill Gap Identification
+###  Skill Gap Identification
 
 - Compares current skills with role-required skills
 - Identifies concrete missing competencies
@@ -53,7 +53,7 @@ Provides a quantitative measure of how job-ready a user currently is.
 
 ---
 
-### 🗺️ Adaptive 30-Day Learning Roadmap
+### Adaptive 30-Day Learning Roadmap
 
 Automatically generates a structured learning plan:
 
@@ -75,7 +75,7 @@ Roadmaps are personalized and continuously updated.
 
 ---
 
-### 🔄 Closed-Loop Adaptive Intelligence
+### Closed-Loop Adaptive Intelligence
 
 The system follows:
 
@@ -91,7 +91,7 @@ The roadmap evolves based on performance and market signals.
 
 ---
 
-### 🧠 Persistent Agent Memory
+### Persistent Agent Memory
 
 Agent state is stored across sessions:
 
@@ -104,7 +104,7 @@ This enables long-term personalization and continuous learning without resetting
 
 ---
 
-### 🕵️ Chrome Extension – Competitor Intelligence
+###  Chrome Extension – Competitor Intelligence
 
 A Chrome extension allows users to analyze other LinkedIn profiles.
 
@@ -119,7 +119,7 @@ Users don’t just compete with job descriptions — they compete with real peop
 
 ---
 
-### 📎 JD + Resume ATS Comparison
+### JD + Resume ATS Comparison
 
 Users can upload:
 
@@ -136,7 +136,7 @@ This improves interview shortlisting probability.
 
 ---
 
-## 🧠 Architecture Overview
+##  Architecture Overview
 
 AdaptiveCareerAgent is built as a multi-agent system using LangGraph on top of LangChain.
 
