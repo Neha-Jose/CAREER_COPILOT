@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Career Co-Pilot Crispin",
+  "version": "1.1.0",
+  "description": "LinkedIn skill-gap analyzer for adaptive roadmap alignment.",
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "host_permissions": ["https://www.linkedin.com/*", "http://localhost:8000/*"],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_title": "Career Co-Pilot"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/in/*"],
+      "js": ["src/contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

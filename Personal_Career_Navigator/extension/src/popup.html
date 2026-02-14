@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Navigator</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <h1>Career Navigator</h1>
+        <p class="subtitle">LinkedIn Profile Analyzer</p>
+      </div>
+
+      <!-- Status Display -->
+      <div id="status" class="status hidden">
+        <span id="statusText"></span>
+      </div>
+
+      <!-- Analyze Button -->
+      <button id="analyzeBtn" class="btn btn-primary">
+        📊 Analyze Profile
+      </button>
+
+      <!-- Profile Info -->
+      <div id="profileInfo" class="section hidden">
+        <h3>Profile Data</h3>
+        <div class="info-item">
+          <strong>Name:</strong>
+          <span id="profileName">-</span>
+        </div>
+        <div class="info-item">
+          <strong>Skills Found:</strong>
+          <span id="skillsCount">0</span>
+        </div>
+        <div class="info-item">
+          <strong>Experience:</strong>
+          <span id="experienceCount">0</span>
+        </div>
+      </div>
+
+      <!-- Skill Gap Display -->
+      <div id="skillGapSection" class="section hidden">
+        <h3>Skill Gap Analysis</h3>
+        <canvas id="radarChart" width="280" height="280"></canvas>
+        <div id="skillGapList" class="skill-gap-list"></div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div id="actionButtons" class="hidden">
+        <button id="alignRoadmapBtn" class="btn btn-accent">
+          🎯 Align My Roadmap
+        </button>
+        <button id="openDashboardBtn" class="btn btn-secondary">
+          📈 Open Dashboard
+        </button>
+      </div>
+
+      <!-- Loading Indicator -->
+      <div id="loader" class="loader hidden">
+        <div class="spinner"></div>
+        <p>Processing...</p>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
