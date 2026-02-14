@@ -21,7 +21,7 @@ This project was built for Vibeathon as a **career co-pilot**, not a chatbot.
 
 This removes guesswork and provides structured career direction.
 
----
+--
 
 ### ATS Resume Scoring
 
